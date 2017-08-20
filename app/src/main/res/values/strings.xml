@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+    <string name="steps">Steps</string>
+    <string name="recipe_name">Recipe name</string>
+    <string name="stepsNumber">20Step</string>
+    <string name="ingeNumber">20ingre</string>
+    <string name="No_Internet">No Internet</string>
+    <string name="Retry">Retry</string>
+    <string name="IngreName">Ingredients name</string>
+    <string name="ingreQuantity">20K</string>
+</resources>
