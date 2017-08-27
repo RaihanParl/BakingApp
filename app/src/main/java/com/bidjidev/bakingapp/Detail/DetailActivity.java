@@ -16,7 +16,6 @@ import butterknife.InjectView;
 
 public class DetailActivity extends AppCompatActivity {
     ArrayList<HashMap<String, String>> stepsData, ingreData;
-    ParcelableRecipe parcelableRecipe;
     @InjectView(R.id.rcStep)
     RecyclerView rcStep;
     @InjectView(R.id.rcIngredients)
@@ -41,9 +40,6 @@ public class DetailActivity extends AppCompatActivity {
         ingreData = (ArrayList<HashMap<String, String>>) getIntent().getSerializableExtra("listIngredients");
     }
 
-    private void getListRecipe() {
-        parcelableRecipe = getIntent().getParcelableExtra("parcelableRecipe");
-    }
 
     private void setRcStep() {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(DetailActivity.this);
